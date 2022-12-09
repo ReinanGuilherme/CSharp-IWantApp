@@ -63,3 +63,8 @@ C:\Users\Reinan.Neto\Desktop\OUTROS\REINAN\IWantApp-API\obj\Debug\net6.0\IWantAp
 C:\Users\Reinan.Neto\Desktop\OUTROS\REINAN\IWantApp-API\obj\Debug\net6.0\IWantApp-API.genruntimeconfig.cache
 C:\Users\Reinan.Neto\Desktop\OUTROS\REINAN\IWantApp-API\obj\Debug\net6.0\ref\IWantApp-API.dll
 C:\Users\Reinan.Neto\Desktop\OUTROS\REINAN\IWantApp-API\bin\Debug\net6.0\Flunt.dll
+C:\Users\Reinan.Neto\Desktop\OUTROS\REINAN\IWantApp-API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\Reinan.Neto\Desktop\OUTROS\REINAN\IWantApp-API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\Reinan.Neto\Desktop\OUTROS\REINAN\IWantApp-API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\Reinan.Neto\Desktop\OUTROS\REINAN\IWantApp-API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\Reinan.Neto\Desktop\OUTROS\REINAN\IWantApp-API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
