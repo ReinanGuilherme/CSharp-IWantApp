@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "DlZa1aw8YUDbdjk1XZ53aG/uGlP3UYiTWLSXkWOW+HI06RmoSoLKiPpVKdD3d3LP4liMe1RCJzDpj7LB0MV8hw==",
+  "dgSpecHash": "PrXOGKC+Yr6V2fh1wJVM/VUV+z4M9yYv0zTLcoYb2eGy7h1fMcVINLq9E4swhUBRQ53WnT+h3X89Vg7YT+5Nwg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Reinan.Neto\\Desktop\\OUTROS\\REINAN\\IWantApp-API\\IWantApp-API.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Reinan.Neto\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
     "C:\\Users\\Reinan.Neto\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\Reinan.Neto\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Reinan.Neto\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",

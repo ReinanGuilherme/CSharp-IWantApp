@@ -1,6 +1,8 @@
-﻿namespace IWantApp_API.Domain
+﻿using Flunt.Notifications;
+
+namespace IWantApp_API.Domain
 {
-    public class Entity
+    public class Entity: Notifiable<Notification>
     {
         public Guid Id { get; set; }
         public string Name { get; set; }
