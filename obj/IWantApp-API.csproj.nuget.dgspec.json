@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Reinan.Neto\\Desktop\\OUTROS\\REINAN\\IWantApp-API\\IWantApp-API.csproj": {}
+    "C:\\Users\\ReinanGuilherme\\Desktop\\Programação\\Cursos\\Udemy\\3 - .NET 6 WEB API - Do zero ao avançado\\IWantApp-API\\IWantApp-API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Reinan.Neto\\Desktop\\OUTROS\\REINAN\\IWantApp-API\\IWantApp-API.csproj": {
+    "C:\\Users\\ReinanGuilherme\\Desktop\\Programação\\Cursos\\Udemy\\3 - .NET 6 WEB API - Do zero ao avançado\\IWantApp-API\\IWantApp-API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Reinan.Neto\\Desktop\\OUTROS\\REINAN\\IWantApp-API\\IWantApp-API.csproj",
+        "projectUniqueName": "C:\\Users\\ReinanGuilherme\\Desktop\\Programação\\Cursos\\Udemy\\3 - .NET 6 WEB API - Do zero ao avançado\\IWantApp-API\\IWantApp-API.csproj",
         "projectName": "IWantApp-API",
-        "projectPath": "C:\\Users\\Reinan.Neto\\Desktop\\OUTROS\\REINAN\\IWantApp-API\\IWantApp-API.csproj",
-        "packagesPath": "C:\\Users\\Reinan.Neto\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Reinan.Neto\\Desktop\\OUTROS\\REINAN\\IWantApp-API\\obj\\",
+        "projectPath": "C:\\Users\\ReinanGuilherme\\Desktop\\Programação\\Cursos\\Udemy\\3 - .NET 6 WEB API - Do zero ao avançado\\IWantApp-API\\IWantApp-API.csproj",
+        "packagesPath": "C:\\Users\\ReinanGuilherme\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ReinanGuilherme\\Desktop\\Programação\\Cursos\\Udemy\\3 - .NET 6 WEB API - Do zero ao avançado\\IWantApp-API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Reinan.Neto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\ReinanGuilherme\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -40,6 +40,10 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.0.123, )"
+            },
             "Flunt": {
               "target": "Package",
               "version": "[2.0.5, )"
@@ -67,6 +71,10 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[6.0.11, )"
+            },
+            "MySqlConnector": {
+              "target": "Package",
+              "version": "[2.2.2, )"
             },
             "Pomelo.EntityFrameworkCore.MySql": {
               "target": "Package",
@@ -96,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

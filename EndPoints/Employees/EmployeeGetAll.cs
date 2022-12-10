@@ -1,6 +1,9 @@
-﻿using IWantApp_API.Domain.Products;
+﻿using Dapper;
+using IWantApp_API.Domain.Products;
 using IWantApp_API.Infra.Data;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Data.SqlClient;
+using MySqlConnector;
 using System.Security.Claims;
 
 namespace IWantApp_API.EndPoints.Employees
@@ -11,12 +14,20 @@ namespace IWantApp_API.EndPoints.Employees
         public static string[] Methods => new string[] { HttpMethod.Get.ToString() };
         public static Delegate Handle => Action;
 
-        public static IResult Action(UserManager<IdentityUser> userManager)
+        public static IResult Action(int? page, int? rows, QueryAllUsersWithClaimName query)
         {
-            var users = userManager.Users.ToList();
-            var employees = users.Select(u => new EmployeeResponse(u.Email, "Name"));
+            if (page == null || page == 0)
+            {
+                page = 1;
+            }
 
-            return Results.Ok(employees);
+            if (rows == null || rows == 0)
+            {
+                rows = 10;
+            }
+
+
+            return Results.Ok(query.Execute(page.Value,rows.Value));
         }
     }
 }
